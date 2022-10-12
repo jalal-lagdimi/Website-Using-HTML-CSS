@@ -1,0 +1,81 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+.container{
+    width: 100%;
+    height: 100vh;
+    background-image: url("img/background.png");
+    background-position: center;
+    background-size: cover;
+    padding-left: 5%;
+    padding-right: 5%;
+    box-sizing: border-box;
+    position: relative;
+}
+.navbar{
+    width: 100%;
+    height: 15vh;
+    margin: auto;
+    display: flex;
+    align-items: center;
+}
+.logo{
+    width: 160px;
+    cursor: pointer;
+}
+.cart{
+    width: 40px;
+    cursor: pointer;
+}
+nav{
+    flex: 1;
+    padding-left: 60px;
+}
+nav ul li {
+    display: inline-block;
+    list-style: none;
+    margin: 0px 20px;
+}
+nav ul li a{
+    text-decoration: none;
+    color: rgb(104, 10, 114);
+}
+.centent h1{
+    font-size: 60px;
+    font-weight: 100;
+    margin-top: 24px;
+    margin-bottom: 15px;
+    color: rgb(104, 10, 114);
+
+}
+.centent p{
+    font-size: 20px;
+    color: rgb(104, 60, 109);
+}
+.centent{
+    margin-left: 10%;
+    margin-top: 10%;
+}
+.centent .btn{
+    display: inline-block;
+    background: rgb(224, 195, 252);
+    padding: 10px 20px;
+    text-decoration: none;
+    border-radius: 10px;
+    box-sizing: border-box;
+}
+.icons{
+    margin-top: 40px;
+    display: flex;
+}
+.icons img{
+    width: 40px;
+    margin-right: 25px;
+}
+.feature{
+    height: 90%;
+    position: absolute;
+    bottom: 0;
+    right: 160px;
+}
